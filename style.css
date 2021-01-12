@@ -1,0 +1,137 @@
+body {
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+.right-side {
+  background-color: rgb(42, 42, 48);
+  flex: 1;
+  text-align: center;
+}
+.left-side {
+  flex: 1;
+
+  background-image: url(images/backimg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.right-side form {
+  font-size: 25px;
+  font-family: 'Secular One', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-side form label {
+  color: white;
+}
+.right-side form label input {
+  border: unset;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 3px solid rgb(0, 140, 255);
+  margin: 25px 16px;
+  padding: 8px;
+}
+.right-side form button {
+  margin-right: 10px;
+  font-family: 'Secular One', sans-serif;
+  color: white;
+  border: unset;
+  padding: 5px 22px;
+  font-size: 20px;
+  background-color: rgb(0, 140, 255);
+  border-radius: 50px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.right-side form button:hover {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.right-side img {
+  /* border: 1px solid black; */
+  margin-top: 70px;
+  margin-left: 400px;
+}
+
+.right-side h1 {
+  margin-top: 10px;
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.right-side a.sign-in {
+  background-color: rgb(0, 140, 255);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: 'Secular One', sans-serif;
+  padding: 15px;
+  font-size: 20px;
+  transition: all 0.4s;
+}
+
+.right-side a.sign-in:hover {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.right-side a.sign-up {
+  border: 2px solid rgb(0, 140, 255);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: 'Secular One', sans-serif;
+  padding: 15px;
+  font-size: 20px;
+  transition: all 0.4s;
+}
+
+.right-side a.sign-up:hover {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* div.opacity {
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.562);
+  background-size: cover;
+  height: 700px;
+} */
+
+/* .left-side {
+  background-image: url(images/backimg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 740px;
+  text-align: center;
+} */
+
+.left-side h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 70px;
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  height: 50px;
+}
